@@ -402,8 +402,7 @@ We'll look at how to code such logic when we look at conditional statements in a
 <button>Start machine</button>
 <p>The machine is stopped.</p>
 ```
-
-```js
+js
 const btn = document.querySelector("button");
 const txt = document.querySelector("p");
 
@@ -418,7 +417,7 @@ function updateBtn() {
     txt.textContent = "The machine is stopped.";
   }
 }
-```
+
 
 {{EmbedGHLiveSample("learning-area/javascript/introduction-to-js-1/maths/conditional.html", '100%', 100)}}
 
